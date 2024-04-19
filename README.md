@@ -19,7 +19,7 @@ The modifications that the program does are :
  + Instances of **(up)** should replace the word before with the Uppercase version of the word. 
  + Instances of **(low)** should replace the word before with the Lowercase version of the word. 
  + Instances of **(cap)** should replace the word before with the capitalized version of the word. 
- * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, /<number/>)** the program turns the specified number of words before the instance accordingly.
+ * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, </number/>)** the program turns the specified number of words before the instance accordingly.
  + Instances of punctuation **(. , ! ? : ; )** are close to the previous word and with a space between it and the next word.
  * This applies if there is a group of punctuations like: **...** .
 
