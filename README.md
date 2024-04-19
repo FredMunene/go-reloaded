@@ -7,7 +7,7 @@ The programs receives as arguments the name of a file containing a text that nee
 
 `go run . input.txt output.txt`
 
-#Guidelines to follow
+# Guidelines to follow
 
 - The project is written in Go
 - The code respects the [good practices.](https://learn.zone01kisumu.ke/git/root/public/src/branch/master/subjects/good-practices/README.md)
@@ -21,5 +21,8 @@ The modifications that the program does are :
  + Instances of **(cap)** replaces the word before it with the capitalized version of the word. 
     * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, number)** the program turns the specified number of words before the instance accordingly.
  + Instances of punctuation **(. , ! ? : ; )** are moved close to the previous word and a space put between it and the next word.
-    * This applies if there is a group of punctuations like: **...** .
+    * This also applies if there is a group of punctuations like: **...**.
+ + Instances of a pair of punctuation mark **'**are placed to the right and left of the word in the middle of them, without any spaces.
+    * Where there is more than one word between the mark, the mark is placed next to corresponding words. 
+ + Instances of **a** or **A** are turned into **an** and **An** respectively if the next word begins with vowels *(a, e, i, o ,u, A, E, I, O, U )* or *h* 
 
