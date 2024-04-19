@@ -14,12 +14,12 @@ The programs receives as arguments the name of a file containing a text that nee
 - There are test files for [unit testing](https://go.dev/doc/tutorial/add-a-test).
 
 The modifications that the program does are :
- + Instances of **(hex)** should replace the word before with it's decimal version of the word. *(the word will be a hexadecimal number)* . 
- + Instances of **(bin)** should replace the word before with it's decimal version of the word. *(the word will be a binary number)* . 
- + Instances of **(up)** should replace the word before with the Uppercase version of the word. 
- + Instances of **(low)** should replace the word before with the Lowercase version of the word. 
- + Instances of **(cap)** should replace the word before with the capitalized version of the word. 
-    * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, </number/>)** the program turns the specified number of words before the instance accordingly.
- + Instances of punctuation **(. , ! ? : ; )** are close to the previous word and with a space between it and the next word.
+ + Instances of **(hex)** replaces the word before it with the decimal version of the word. *(the word will be a hexadecimal number)* . 
+ + Instances of **(bin)** replaces the word before it with the decimal version of the word. *(the word will be a binary number)* . 
+ + Instances of **(up)** replaces the word before it with the Uppercase version of the word. 
+ + Instances of **(low)** replaces the word before it with the Lowercase version of the word. 
+ + Instances of **(cap)** replaces the word before it with the capitalized version of the word. 
+    * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, number)** the program turns the specified number of words before the instance accordingly.
+ + Instances of punctuation **(. , ! ? : ; )** are moved close to the previous word and a space put between it and the next word.
     * This applies if there is a group of punctuations like: **...** .
 
