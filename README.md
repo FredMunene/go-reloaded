@@ -1,4 +1,4 @@
-#A SIMPLE TEST COMPLETION/EDITING/AUTO-CORRECTION TOOL (underline)
+A SIMPLE TEST COMPLETION/EDITING/AUTO-CORRECTION TOOL 
 =============
 
 This is part of the projects I am currently undertaking in learning Go.
@@ -7,7 +7,7 @@ The programs receives as arguments the name of a file containing a text that nee
 
 `go run . sample.txt result.txt`
 
-##Guidelines to follow
+Guidelines to follow
 
 - The project is written in Go
 - The code respects the [good practices.](https://learn.zone01kisumu.ke/git/root/public/src/branch/master/subjects/good-practices/README.md)
