@@ -21,7 +21,7 @@ The modifications that the program does are :
  + Instances of **(low)** replaces the word before it with the Lowercase version of the word. (Ex: "The last day on earth (up)" > "The last day on EARTH")
  + Instances of **(cap)** replaces the word before it with the capitalized version of the word. 
     * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, number)** the program turns the specified number of words before the instance accordingly.
-    (Ex: "My name is frank kim thommas .(cap, 3)" > "My name is Frank Kim Thommas." )
+    (Ex: "My name is frank kim thommas (cap, 3)." > "My name is Frank Kim Thommas.")
  + Instances of punctuation **(. , ! ? : ; )** are moved close to the previous word and a space put between it and the next word.
     * This also applies if there is a group of punctuations like: **...**. (Ex: "A pair of dots ..." > "A pair of dots...")
  + Instances of a pair of apostrophe mark ***(' ')*** are placed to the right and left of the word in the middle of them, without any spaces.
