@@ -23,8 +23,8 @@ The modifications that the program does are :
     * For **(up)**, **(low)**, **(cap)** if a number appears next to it like: **(low, number)** the program turns the specified number of words before the instance accordingly.
     (Ex: "My name is frank kim thommas .(cap, 3)" > "My name is Frank Kim Thommas." )
  + Instances of punctuation **(. , ! ? : ; )** are moved close to the previous word and a space put between it and the next word.
-    * This also applies if there is a group of punctuations like: **...**.
+    * This also applies if there is a group of punctuations like: **...**. (Ex: "A pair of dots ..." > "A pair of dots...")
  + Instances of a pair of apostrophe mark ***(' ')*** are placed to the right and left of the word in the middle of them, without any spaces.
-    * Where there is more than one word between the mark, the mark is placed next to corresponding words. (Ex: "A pair of dots ..." > "A pair of dots...")
+    * Where there is more than one word between the mark, the mark is placed next to corresponding words. (Ex: "He said, ' He is okay '" > "He said, 'He is okay'")
  + Instances of **a** or **A** are turned into **an** and **An** respectively if the next word begins with vowels *(a, e, i, o ,u, A, E, I, O, U )* or *h, H.* (Ex: "a apple" > "an apple")
 
